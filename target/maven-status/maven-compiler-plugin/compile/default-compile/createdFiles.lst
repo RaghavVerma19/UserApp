@@ -1,0 +1,6 @@
+com\userapp\repository\UserRepository.class
+com\userapp\service\impl\UserServiceImpl.class
+com\userapp\controller\UserController.class
+com\userapp\service\UserService.class
+com\userapp\SpringbootRestfulWebservicesApplication.class
+com\userapp\entity\User.class
