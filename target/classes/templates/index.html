@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyApp</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script th:src="@{/js/script.js}"></script>
+
+</head>
+<body>
+	<h1 style="text-align:center">USERS INFORMATION</h1>
+
+	<div class="table">
+		<button onclick="createModal()" id="createBtn">Create</button>
+		<table id="user-table-body">
+			<thead>
+				<tr>
+					<td>Id</td>
+					<td>First Name</td>
+					<td>Last Name</td>
+					<td>Email</td>
+					<td>Action</td>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	
+	
+</body>
+</html>
